@@ -1,1 +1,4 @@
 /.idea
+node_modules
+public/rmc.js
+yarn-error.log

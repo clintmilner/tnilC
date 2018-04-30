@@ -4,6 +4,7 @@
 # TEAM
 
     <name> -- <role> -- <twitter>
+    Clint Milner - Head of Development - @clint_milner
 
 # THANKS
 
