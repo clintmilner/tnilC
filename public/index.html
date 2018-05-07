@@ -7,14 +7,41 @@
         <meta name="description" content="Rebasoft Management Console">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    </head>
     <body>
-    <div id="container">
+
+            <!-- Main jumbotron for a primary marketing message or call to action -->
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-1">Title</h1>
+                    <p id="container">react will kill this text anyway</p>
+                </div>
+            </div>
+
+            <div class="container">
+
+            </div>
+
+        <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Title</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                <small class="pull-right">built with React</small>
+            </div>
+        </nav>
         <ol>
             <li>git/node/yarn</li>
             <li>yarn install</li>
-            <li>yarn run build</li>
-            <li>yarn run build-babel</li>
+            <li>yarn run serve</li>
+            <li>yarn run build - generates js file [PROD]</li>
+            <li>yarn run dev-server - generates in-memory js file [DEV]</li>
         </ol>
-    </div>
     </body>
     <script src="/rmc.js"></script>
 </html>

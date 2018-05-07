@@ -1,0 +1,8 @@
+@import '/libs/normalize.css/normalize.css';
+@import '/libs/bootstrap/bootstrap.scss';
+
+
+
+$brand-color: cornflowerblue;
+
+* { color: $brand-color; }
